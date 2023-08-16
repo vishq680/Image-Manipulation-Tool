@@ -1,0 +1,7 @@
+load dog.ppm dog
+load res/dog.ppm doogg1
+blur doogg dogblur
+load res/dog.ppm doogg1
+horizontal-flip doogg res/dogVert"
+load res/dog.ppm doogg1
+blur doogg dogblur

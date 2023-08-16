@@ -1,0 +1,166 @@
+
+NOTE: OPEN THE TERMINAL IN "res" DIRECTORY AND EXECUTE THE JAR FILE.
+
+SCRIPT COMMANDS SUPPORTED BY THE APPLICATION:
+
+
+1. load image-path imageName
+Eg: load dog.ppm dog
+
+
+2. save image-path imageName
+Eg: save dogjpeg.jpeg dog
+
+
+3. blur imageName destImageName
+Eg: blur dog dogBlur
+
+
+4. sharpen imageName destImageName
+Eg: sharpen dog dogSharp
+
+
+5. dither imageName destImageName
+Eg: dither dog dogDither
+
+
+6. sepia imageName destImageName
+Eg: sepia dog dogSepia
+
+
+7. greyscale imageName destImageName
+Eg: greyscale dog dogGreyscale
+
+
+8. horizontal-flip imageName destImageName
+Eg: horizontal-flip dog dogHoz
+
+
+9. vertical-flip imageName destImageName
+Eg: vertical-flip dog dogVert
+
+
+10. greyscale red-component imageName destImageName
+Eg: greyscale red-component dog dogRed
+
+
+11. greyscale green-component imageName destImageName
+Eg: greyscale green-component dog dogGreen
+
+
+12. greyscale blue-component imageName destImageName
+Eg: greyscale blue-component dog dogBlue
+
+
+13. greyscale value-component imageName destImageName
+Eg: greyscale value-component dog dogValue
+
+
+14. greyscale intensity-component imageName destImageName
+Eg: greyscale intensity-component dog dogIntensity
+
+
+15. greyscale luma-component imageName destImageName
+Eg: greyscale luma-component dog dogLuma
+
+
+16. brighten 50 imageName destImageName
+Eg: brighten 50 dog dogBright
+
+
+17. brighten -50 imageName destImageName
+Eg: brighten -50 dog dogDark
+
+
+18. rgb-combine imageName, redComponent, greenComponent, blueComponent
+Eg: rgb-combine dogCombine redSplit greenSplit blueSplit
+
+
+19. rgb-split imageName, redComponent, greenComponent, blueComponent
+Eg: rgb-split dog redSplit greenSplit blueSplit
+
+
+20. save ppm file as jpeg format
+Eg: save dog_ppm_to_jpeg.jpeg dog
+
+
+21. save ppm file as png format
+Eg  save dog_ppm_to_png.png dog
+
+22. load a jpeg file
+Eg: load puppy1.jpeg puppy
+
+23. save jpeg file  as ppm format
+Eg: save puppy_jpeg_to_ppm.ppm puppy
+
+
+24. save jpeg file as png format
+Eg: save puppy_jpeg_to_png.png puppy
+
+
+25. load a png file
+Eg: load puppy.png pup
+
+
+26. save png file as ppm format
+Eg: save png_to_ppm.ppm pup
+
+
+27. save png file as jpeg format
+Eg: save png_to_jpeg.jpeg pup
+
+
+
+CONDITIONS ON COMMANDS:
+
+
+1. Before executing any command, the image should be loaded into the application.
+
+
+2. While loading, the location of the image should be valid and an image should be present in that    location.
+
+
+3. Before dithering an image, the image should be converted into its greyscale version.
+
+
+4. While executing a command (except load), the name of the image should be a valid name and an image by that name should be loaded into the application.
+
+
+5. Before executing the rgb-combine command, the red, green, blue greyscale component should already be loaded and stored in the application.
+
+
+
+
+----------------------------------------------------------------------------------------------------
+
+GUI Usage:
+
+NOTE: The window should be resized to the maximum limit for the image to be visible.
+
+NOTE: After clicking each operation button, scroll down/up to see the changes visible in the image preview section and histogram section.
+
+1. The first command is to load the image onto the screen.
+
+2. Once the image is loaded any command of your choice can be run by clicking the respective button.
+
+3. The Blur command can be pressed to blur the image.
+
+4. The brighten button will prompt an additional dialogue box to enter the value. Once that is entered the image will brighten and the change will be reflected on the screen.
+
+5. The horizontal flip button will perform the flip and the change will be reflected on the screen.
+
+6. The vertical flip button will perform the flip and the change will be reflected on the screen.
+
+7. The greyscale button will prompt the a dialogue box to enter the component. Once that is entered the change will be reflected on the screen.
+
+8. RGB split button will prompt to enter the location to which the images are to be saved. Then the images are saved to the location. There will not be any change on the screen.
+
+9. RGB combine button will prompt to enter the location of the images which are to be combined. The images are then combined and the change is reflected on the screen.
+
+10. Sharpen image button will perform the operation and the change will be reflected on the screen.
+
+11. Sepia button will perform the operation and the change will be reflected on the screen.
+
+12. Dither button will perform the operation and the change will be reflected on the screen.
+
+13. Save button will prompt to enter the location for the image to be saved. The image is then saved to that location.
